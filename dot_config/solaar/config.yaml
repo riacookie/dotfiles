@@ -9,7 +9,7 @@
   _sensitive: {dpi: true, hires-scroll-mode: ignore, hires-smooth-invert: ignore, hires-smooth-resolution: ignore, led_control: true, led_zone_2: true,
     onboard_profiles: true, report_rate: false}
   _unitId: '32384713'
-  dpi: 1350
+  dpi: 1300
   led_control: 0
   led_zone_2: !LEDEffectSetting {ID: 10, color: 16416882, intensity: 0, period: 2550, ramp: 0, speed: 0}
   onboard_profiles: 1
