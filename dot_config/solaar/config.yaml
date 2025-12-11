@@ -6,7 +6,7 @@
     divert-keys, disable-keyboard-keys, crown-smooth, divert-crown, divert-gkeys, m-key-leds, mr-key-led, multiplatform, change-host, gesture2-gestures,
     gesture2-divert, gesture2-params, sidetone, equalizer, adc_power_management]
   _modelId: C08400000000
-  _sensitive: {dpi: true, hires-scroll-mode: ignore, hires-smooth-invert: ignore, hires-smooth-resolution: ignore, led_control: true, led_zone_2: true,
+  _sensitive: {dpi: true, hires-scroll-mode: ignore, hires-smooth-invert: ignore, hires-smooth-resolution: ignore, led_control: true, led_zone_2: false,
     onboard_profiles: true, report_rate: false}
   _unitId: '32384713'
   dpi: 1300
