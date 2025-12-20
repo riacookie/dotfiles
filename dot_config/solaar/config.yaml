@@ -1,4 +1,4 @@
-- 1.1.17
+- 1.1.18
 - _NAME: G102 Prodigy Gaming Mouse
   _absent: [hi-res-scroll, lowres-scroll-mode, hires-smooth-invert, hires-smooth-resolution, hires-scroll-mode, scroll-ratchet, scroll-ratchet-torque, smart-shift,
     thumb-scroll-invert, thumb-scroll-mode, report_rate_extended, pointer_speed, dpi_extended, speed-change, backlight, backlight_level, backlight_duration_hands_out,
@@ -9,7 +9,7 @@
   _sensitive: {dpi: false, hires-scroll-mode: ignore, hires-smooth-invert: ignore, hires-smooth-resolution: ignore, led_control: true, led_zone_2: false,
     onboard_profiles: false, report_rate: false}
   _unitId: '32384713'
-  dpi: 1300
+  dpi: 1250
   led_control: 0
   led_zone_2: !LEDEffectSetting {ID: 10, color: 16416882, intensity: 0, period: 2550, ramp: 0, speed: 0}
   onboard_profiles: 0
