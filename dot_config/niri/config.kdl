@@ -30,8 +30,8 @@ input {
     }
     touchpad {
     	natural-scroll
-    	// accel-profile "flat"
-    	accel-speed 0.3
+    	accel-profile "flat"
+    	accel-speed 0.8
     	scroll-factor 0.3
     	tap
     }
