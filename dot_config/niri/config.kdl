@@ -32,7 +32,7 @@ input {
     	natural-scroll
     	accel-profile "flat"
     	accel-speed 0.8
-    	scroll-factor 0.3
+    	scroll-factor 0.2
     	tap
     }
     mouse {
