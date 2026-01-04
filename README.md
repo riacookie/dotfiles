@@ -17,23 +17,33 @@ Replace "riacookie" with your github username.
 sh -c "$(curl -fsLS get.chezmoi.io)" -- init --apply riacookie
 ```
 
+## MacOS Tahoe Cursor (optional)
+
+```bash
+https://www.gnome-look.org/p/2339229
+```
+
+1. Download from the link above
+2. Extract it and move it to `/usr/share/icons/`
+
 ## 🛠️ Software Stack
 
 The installation script automatically sets up the following environment:
 
-| Category | Application | Package Name | Description |
-| :--- | :--- | :--- | :--- |
-| **Window Manager** | Niri | `niri` | Infinite scrollable tiling window manager. |
-| **Shell UI** | DankMaterialShell | `dms-shell-bin` | Custom shell with Quick Settings & Bar. |
-| **Terminal** | Alacritty | `alacritty` | GPU-accelerated terminal, config via TOML. |
-| **Browser** | Zen Browser | `zen-browser-bin` | Privacy-focused, vertical-tab Firefox fork. |
-| **Editor** | VS Code | `visual-studio-code-bin` | Official Microsoft binary version. |
-| **Chat** | Discord | `discord` | Standard Discord client. |
-| **Music** | Spotify | `spotify` | Music streaming. |
-| **Peripherals** | Solaar | `solaar` | Manager for Logitech receivers/devices. |
-| **Maintenance** | BleachBit | `bleachbit` | System cleaner and space freer. |
-| **Fonts** | JetBrains Mono | `ttf-jetbrains-mono-nerd` | Patched Nerd Font for terminal icons. |
-| **Theme** | Adwaita Dark | `adw-gtk-theme` | Bridges GTK3 apps to Libadwaita style. |
+| Category           | Application       | Package Name              | Description                                 |
+| :----------------- | :---------------- | :------------------------ | :------------------------------------------ |
+| **Window Manager** | Niri              | `niri`                    | Infinite scrollable tiling window manager.  |
+| **Shell UI**       | DankMaterialShell | `dms-shell-bin`           | Custom shell with Quick Settings & Bar.     |
+| **Terminal**       | Alacritty         | `alacritty`               | GPU-accelerated terminal, config via TOML.  |
+| **Browser**        | Zen Browser       | `zen-browser-bin`         | Privacy-focused, vertical-tab Firefox fork. |
+| **Editor**         | VS Code           | `visual-studio-code-bin`  | Official Microsoft binary version.          |
+| **Chat**           | Discord           | `discord`                 | Standard Discord client.                    |
+| **Music**          | Spotify           | `spotify`                 | Music streaming.                            |
+| **Peripherals**    | Solaar            | `solaar`                  | Manager for Logitech receivers/devices.     |
+| **Maintenance**    | BleachBit         | `bleachbit`               | System cleaner and space freer.             |
+| **Fonts**          | JetBrains Mono    | `ttf-jetbrains-mono-nerd` | Patched Nerd Font for terminal icons.       |
+| **Theme**          | Adwaita Dark      | `adw-gtk-theme`           | Bridges GTK3 apps to Libadwaita style.      |
+| **Cursor**         | MacOSX Cursor     | `MacOSX Cursor`           | MacOS Tahoe Cursor.                         |
 
 ---
 
@@ -41,8 +51,8 @@ The installation script automatically sets up the following environment:
 
 This setup enforces a consistent **Dark Mode** across the system.
 
-* **GTK Applications:** The installer automatically applies `adw-gtk3-dark` and sets the color scheme to `prefer-dark`. This ensures legacy apps (like BleachBit or Pavucontrol) match modern Libadwaita apps (like Zen or Nautilus).
-* **Terminal Icons:** `ttf-jetbrains-mono-nerd` is installed by default. If you see "squares" instead of icons in your terminal, ensure your terminal font is set to **JetBrainsMono Nerd Font**.
+-   **GTK Applications:** The installer automatically applies `adw-gtk3-dark` and sets the color scheme to `prefer-dark`. This ensures legacy apps (like BleachBit or Pavucontrol) match modern Libadwaita apps (like Zen or Nautilus).
+-   **Terminal Icons:** `ttf-jetbrains-mono-nerd` is installed by default. If you see "squares" instead of icons in your terminal, ensure your terminal font is set to **JetBrainsMono Nerd Font**.
 
 ---
 
@@ -60,6 +70,7 @@ While Chezmoi handles 95% of the setup, you will need to do these things manuall
 
 **"The installer failed on a package!"**
 If the script stops mid-way, you can resume it or install the missing package manually:
+
 ```bash
 paru -S package_name
 chezmoi apply
@@ -87,6 +98,7 @@ chezmoi add ~/.config/DankMaterialShell
 ### 3️⃣ Add New Software
 
 To add a new app to the auto-installer script:
+
 1. `chezmoi cd`
 2. Edit `run_once_before_install_packages.sh`
 3. Add the package name to the list.
