@@ -38,7 +38,7 @@ input {
     mouse {
     	accel-profile "flat"
     	// accel-speed 0.1
-    	scroll-factor 1
+    	scroll-factor 1.5
     }
     trackpoint {
     }
