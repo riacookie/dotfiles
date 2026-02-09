@@ -433,3 +433,5 @@ cursor {
     xcursor-theme "MacOS-TahoeX-Cursor"
     xcursor-size 24
 }
+
+include "dms/outputs.kdl"
