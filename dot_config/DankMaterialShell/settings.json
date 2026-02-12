@@ -176,7 +176,7 @@
   "vpnLastConnected": "",
   "iconTheme": "System Default",
   "cursorSettings": {
-    "theme": "System Default",
+    "theme": "MacOS-TahoeX-Cursor",
     "size": 24,
     "niri": {
       "hideWhenTyping": false,
