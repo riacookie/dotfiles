@@ -268,10 +268,10 @@
   "dockGroupByApp": false,
   "dockOpenOnOverview": false,
   "dockPosition": 1,
-  "dockSpacing": 10,
+  "dockSpacing": 7,
   "dockBottomGap": 0,
   "dockMargin": 0,
-  "dockIconSize": 70,
+  "dockIconSize": 65,
   "dockIndicatorStyle": "circle",
   "dockBorderEnabled": false,
   "dockBorderColor": "surfaceText",
@@ -485,6 +485,10 @@
   "desktopWidgetGridSettings": {},
   "desktopWidgetInstances": [],
   "desktopWidgetGroups": [],
-  "builtInPluginSettings": {},
+  "builtInPluginSettings": {
+    "dms_settings_search": {
+      "trigger": "?"
+    }
+  },
   "configVersion": 5
 }
